@@ -1,0 +1,138 @@
+body{
+    background: #ebebec;
+    margin: 0px;
+}
+.logo,.inicio{
+    width: 3em;
+    height: 3em;
+}
+.logo{
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9ad96;
+}
+.k{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tit{
+    text-align: center;
+    text-align: center;
+}
+.titulo{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.frase{
+    font-size: 0;
+}
+.carrito,.check{
+    width: 3em;
+    height: 3em;
+}
+.lupa{
+    width: 9em;
+    height: 3em;
+    object-fit: cover;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.catalogo{
+    background-color: #f5d1c9;
+    display: flex;
+    justify-content: space-around;
+}
+.ves,.pan,.blu,.po,.ac,.jo{
+    width: 5em;
+    height: 5em;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.a,.b,.c,.d,.e,.f{
+    display: flex;
+    justify-content: center;
+}
+.in,.ca,.new,.of,.yo{
+    width: 2em;
+    height: 2em;
+}
+.end{
+    background-color: #f3ddce;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 800px) {
+body{
+    background-color: #f3ddce;
+    margin: 0px;
+    }
+.logo,.inicio{
+    width: 6em;
+    height: 6em;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5d1c9;
+}
+.tit{
+    text-align: center;
+    text-align: center;
+    background-color: #ebebec;
+}
+.frase{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lupa{
+    width: 16em;
+    height: 5em;
+}
+.check,.carrito{
+    width: 5em;
+    height: 5em;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.catalogo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#ebebec;
+}
+.ves,.pan,.blu{
+    width: 13em;
+    height: 13em;
+    background-color: white;
+    border-radius: 20%;
+}
+.po,.ac,.jo{
+    width: 13em;
+    height: 13em;
+    background-color: white;
+    border-radius: 20%;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.a,.b,.c,.d,.e,.f{
+    display: flex;
+    justify-content: center;
+}
+.in,.ca,.new,.of,.yo{
+    width: 4em;
+    height: 4em;
+}
+.end{
+    background-color: #d9ad96;
+}
+}
